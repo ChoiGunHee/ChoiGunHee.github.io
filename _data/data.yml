@@ -5,26 +5,27 @@
 sidebar:
     position: right # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Gunhee Choi
+    tagline: Ph D Course Student
+    avatar: my.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: example@email.com
-    phone: 012 345 6789
-    timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-    citizenship:
-    website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-    linkedin: alandoe
-    xing: alandoe
-    github: jekyll
+    email: godrjsmgl@gmail.com
+    phone_KR: KR 010 8875 9746
+    phone_US: US 315 766 5496
+    timezone: Asia/Seoul # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+    citizenship: Korea
+    website: # https://example.com/ # Include the full website URL, including "http://" or "https://".
+    linkedin: #alandoe
+    xing: #alandoe
+    github: ChoiGunHee
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@jekyllrb'
+    twitter: #'@jekyllrb'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -36,29 +37,26 @@ sidebar:
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Korean
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
+        - idiom: English
           level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: GotoGym
           link:
 
-        - item: Snowboarding
+        - item: Game
           link:
 
         - item: Cooking
           link:
 
 career-profile:
-    title: Career Profile
+    title: I am making CV!
     summary: |
       Summarise your career here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. You can [download this free resume/CV template here]().
@@ -69,28 +67,35 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: PhD Course Student (Computer Engineering)
+        university: Dankook University (Korea)
+        time: 2018 - present
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
           sociis natoque penatibus et magnis dis parturient montes, nascetur
           ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
           pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+
+      - degree: Visiting Researcher (Computer Science)
+        university: Syracuse University (USA)
+        time: September 2023 - February 2024
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
           sociis natoque penatibus et magnis dis parturient montes, nascetur
           ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
           pretium quis, sem.
-            - Bullet point
-            - Bullet point
+
+      - degree: Undergraduate Student (Software Engineering)
+        university: Dankook University (Korea)
+        time: 2012 - 2017
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
 
 experiences:
     title: Experiences
@@ -227,20 +232,47 @@ publications:
       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
       bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Performance Analysis of Batch Prediction Using SIMD in RMI
+        link: "https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11861789"
+        authors: Yongjie Zhu, Minguk Choi, Boseung Kim, Yeojin Oh, Hojin Shin, Gunhee Choi, Seehwan Yoo, Jongmoo Choi
+        conference: 2024 Korea Conputer Congress, (191-193)
+        year : 2024
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: Event-based Vehicle Data Acquisition and Analysis
+        link: "https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11705646"
+        authors: Yeojin Oh, Boseung Kim, Gunhee Choi, Sounghyoun Lee, Jongmoo Choi
+        conference: 2023 Korea Conputer Congress, (1934-1936)
+        year : 2023
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Analysis of Time-Aware Tiered Storage in RocksDB
+        link: "https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11705646"
+        authors: Suhwan Shin, Gunhee Choi, Seehwan Yoo, Jongmoo Choi
+        conference: 2023 Korea Conputer Congress, (1946-1948)
+        year : 2023
+
+      - title: "ACE: An Analog Cell Emulator for Dependability Study of NAND Flash Memory"
+        link: "https://ieeexplore.ieee.org/abstract/document/10206808"
+        authors: Jeoungwon Lee, Heekwon Park, Gunhee Choi, Bryan S Kim, Seehwan Yoo, Jaedong Lee, Jongmoo Choi
+        conference: 2023 53rd Annual IEEE/IFIP International Conference on Dependable Systems and Networks-Supplemental Volume (DSN-S), (28-34)
+        year : 2023
+
+      - title: "Analysis of Zone Reclaiming Overhead"
+        link: "https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11488463"
+        authors: Inho Song, Gunhee Choi, Bryan S. Kim, Wonjin Lee, Seehwan Yoo, Jaedong Lee, Jongmoo Choi
+        conference: 2023 Korea Computer Congress, (1571-1573)
+        year : 2023
+
+      - title: "Exploring performance characteristics of ZNS SSDs: Observation and implication"
+        link: "https://ieeexplore.ieee.org/abstract/document/9188086"
+        authors: Hojin Shin, Myounghoon Oh, Gunhee Choi, Jongmoo Choi
+        conference: 2020 9th Non-Volatile Memory Systems and Applications Symposium (NVMSA), (1-5)
+        year : 2020
+
+      - title: "A New LSM-style Garbage Collection Scheme for ZNS SSDs"
+        link: "https://www.usenix.org/conference/hotstorage20/presentation/choi"
+        authors: Gunhee Choi, Kwanghee Lee, Myunghoon Oh, Jongmoo Choi, Jhuyeong Jhin, Yongseok Oh
+        conference: 12th USENIX Workshop on Hot Topics in Storage and File Systems (HotStorage 20)
+        year : 2020
 
 skills:
     title: Skills &amp; Proficiency

@@ -69,33 +69,15 @@ education:
     info:
       - degree: PhD Course Student (Computer Engineering)
         university: Dankook University (Korea)
-        time: 2018 - present
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
+        time: March 2018 - present
 
       - degree: Visiting Researcher (Computer Science)
         university: Syracuse University (USA)
         time: September 2023 - February 2024
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
 
       - degree: Undergraduate Student (Software Engineering)
         university: Dankook University (Korea)
-        time: 2012 - 2017
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
+        time: March 2012 - September 2017
 
 experiences:
     title: Experiences
